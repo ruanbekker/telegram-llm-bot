@@ -15,13 +15,21 @@ Configure authentication to Telegram and saving your token.
 1. Run `cp sample.env .env`
 2. Persist token and config details
 
+### Start the Bot
+
+```bash
+docker compose up -d --build
+```
+
 ## Screenshots
 
-Using `/help`:
+Screenshots from Telegram.
+
+### Using `/help`:
 
 ![](assets/screenshot-help-menu.png)
 
-Using `!llm`:
+### Using `!llm`:
 
 ![](assets/screenshot-llm-chat.png)
 
