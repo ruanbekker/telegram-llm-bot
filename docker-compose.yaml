@@ -1,0 +1,9 @@
+services:
+  telegram-llm-bot:
+    container_name: telegram-llm-bot
+    build: .
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=$TELEGRAM_BOT_TOKEN
+      - OLLAMA_URL=$OLLAMA_URL
+      - OLLAMA_MODEL=$OLLAMA_MODEL
