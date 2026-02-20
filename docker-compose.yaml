@@ -7,3 +7,14 @@ services:
       - TELEGRAM_BOT_TOKEN=$TELEGRAM_BOT_TOKEN
       - OLLAMA_URL=$OLLAMA_URL
       - OLLAMA_MODEL=$OLLAMA_MODEL
+
+  # ollama:
+  #   image: ollama/ollama
+  #   container_name: ollama
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama:/root/.ollama
+
+# volumes:
+#   ollama: {}
