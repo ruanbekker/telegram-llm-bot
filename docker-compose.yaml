@@ -6,7 +6,7 @@ services:
     environment:
       - TELEGRAM_BOT_TOKEN=$TELEGRAM_BOT_TOKEN
       - OLLAMA_URL=$OLLAMA_URL
-      - OLLAMA_MODEL=$OLLAMA_MODEL
+      - OLLAMA_MODEL=gemma2:2b
 
   # ollama:
   #   image: ollama/ollama
